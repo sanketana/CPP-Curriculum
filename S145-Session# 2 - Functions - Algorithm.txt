@@ -1,0 +1,12 @@
+Topics
+- Recap
+- Algorithm
+- call by value, call by reference, call by pointer
+
+exercises
+- distance between two coordinates
+- gcd / lcm
+- Area of a triangle using Distance formula
+- Area of Square
+- Challenges - Valid square check
+

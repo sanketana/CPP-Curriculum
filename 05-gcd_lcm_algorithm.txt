@@ -1,0 +1,55 @@
+example
+
+Num1 = 48
+Num2 = 18
+GCD = 6
+Formula: 
+
+Solution 1 - Prime factorization
+18 = 2^2 * 3^1
+48 = 2^4 * 3^1
+
+common factors are: 2*3 = 6
+
+Solution 2 - Euclid's division method
+The Euclidean method is an efficient way to find the Greatest Common Divisor (GCD) of two numbers. Here’s how it works:
+
+Steps to Find the GCD Using the Euclidean Method
+
+	1.	Identify the two numbers, say a and b, where a > b.
+	2.	Divide a by b, and find the remainder, which we’ll call r.
+	•	If the remainder r is 0, then b is the GCD of the original pair.
+	•	If r is not 0, then replace a with b, and b with r.
+	3.	Repeat the process until the remainder is 0. When you reach a remainder of 0, the divisor at that step is the GCD.
+
+Example
+
+Let’s find the GCD of 48 and 18.
+	1.	￼, ￼
+	2.	Divide 48 by 18:
+￼
+So, ￼, ￼ (we replace a with b and b with the remainder).
+	3.	Divide 18 by 12:
+￼
+Now, ￼, ￼.
+	4.	Divide 12 by 6:
+￼
+Here, the remainder is 0, so our divisor at this step, which is 6, is the GCD.
+
+Answer
+
+The GCD of 48 and 18 is 6.
+
+Python Code
+
+Here’s a simple Python code to find the GCD using the Euclidean method:
+
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# Example usage:
+print(gcd(48, 18))  # Output: 6
+
+This code will give you the GCD of any two positive integers you input by following the Euclidean algorithm.

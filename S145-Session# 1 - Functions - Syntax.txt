@@ -1,0 +1,14 @@
+VS Code Install and Configure
+Vex V5 check
+
+Topic - Functions
+- concept, big idea
+- definition and execution
+- arguments, parameter
+- return values
+
+exercises
+- say hello
+- add
+- max
+- square

@@ -1,0 +1,41 @@
+Core Concepts
+- Array Concepts
+- How array stores data
+- Array declaration
+- Array Initialization
+- Array traversal
+
+
+More Concepts
+- Different Ways to initialise Arrays
+
+
+C/W exercises
+- Array Intro - Store and access High Scores
+- Arrays Grade Average
+- Arrays Quiz
+- Array Student Gradebook
+
+Additional exercises
+- Write a C++ program, that ask a number n as input, declares an array of n floats, 
+again asks for n items, stores in an array and finds the average of n number
+- Student Grade Management System
+- Pet Simulator
+
+Homework
+- Quiz Extension
+
+
+
+====
+Please enter the size of array: 5
+Please enter number 1: 4
+Please enter number 2: 3
+Please enter number 3: 8
+Please enter number 4: 2
+Please enter number 5: 1
+the average of 5 numbers is: 5.6
+
+cin >> input
+
+myList[i] = input

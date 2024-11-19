@@ -1,0 +1,12 @@
+Topics
+
+- Pass by value
+- Pass by reference
+
+exercises
+- Pass by value
+- Pass by reference
+
+
+Homework:
+Problem# 2 - Write C++ function to find if a number if prime or not.
