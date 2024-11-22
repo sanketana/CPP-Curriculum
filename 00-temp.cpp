@@ -1,14 +1,11 @@
-#include <iostream> // Include the input-output stream library
+#include <iostream>
 using namespace std;
 
-int main()
-{
-    int a = 10;
-    int *a_pointer = &a;
-    cout << "Value of a" << a << endl;
-    cout << "Address of a" << &a << endl;
-    cout << "Pointer of a" << a_pointer << endl;
-    cout << "Printing value at a_pointer" << *a_pointer << endl;
+int main() {
+  // Simple for loop
+  for (int i = 1; i <= 10; i++) {
+    cout << "Number: " << i << endl;
+    }
 
-    return 0;
+  return 0;
 }

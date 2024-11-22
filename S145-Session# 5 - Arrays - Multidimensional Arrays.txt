@@ -1,12 +1,14 @@
 Concepts
-- Like a matrix, class seating arrangement
-- Initial
+- Concept - Like a matrix, class seating arrangement
+- Initialization - Declaration method 1, method 2, Direct initalization, Default Initialization, Loop Initialization
+- Array Traversal - using nested loop
+- Exercises
 
 Classwork
-
-
+- Declaration, Intialization and Printing
+- Sum of all elements in a 2D Array
+- Transpose of a matrix
 
 Homework
-
-
-Additional Practise Project
+- Sum of all elements in a 2D Array
+- Transpose of a matrix
