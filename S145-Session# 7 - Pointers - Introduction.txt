@@ -1,0 +1,25 @@
+Concepts
+- Definition and Purpose of Pointers
+- Pointer Syntax
+- Dereferencing Pointers
+- Pointer Arithmetic
+- Null Pointers
+
+Classwork
+- Declaration
+- Initialization
+- Dereferencing
+- Arithmetic
+- Null Pointer
+- Swapping using Pointers
+
+Homework
+Exercise 1: Find the Largest Element in an Array Using Pointers
+Problem: Write a function to find and return the largest element in an array using pointers. The array and its size will be passed as arguments.
+
+Exercise 2: Reverse a String Using Pointers
+Problem: Write a function to reverse a string in place using pointers. The string will be modified directly.
+
+Additional Practise Project
+- Array Sum using Pointers
+- Reverse Array using Pointers

@@ -1,0 +1,14 @@
+Concepts
+- Pointer to a Pointer
+- Pointer vs References
+- Dynamic Memory Alloction (new and delete)
+- Dangling pointers
+- 
+
+Classwork
+
+
+Homework
+
+
+Additional Practise Projects
