@@ -23,11 +23,16 @@ int main() {
 
   for (int i = 0; i < NUM_COL; i++) {
     first_row_sum += matrix[0][i];
+    //first_row_sum = first_row_sum + matrix[0][i];
   }
 
   // Find the sum of last row
 
   // Find the sum of first column
 
-  // Find the fum of lat column
+  // Find the fum of last column
+
+  // Total sum = first row + last row + first col - last col - all corner numbers
+
+  // print
 }

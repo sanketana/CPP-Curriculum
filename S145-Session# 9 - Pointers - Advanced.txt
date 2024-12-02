@@ -1,0 +1,38 @@
+Concepts
+=========
+- Pointer to a Pointer
+- Pointer vs References
+- Null Pointer
+- Dangling Pointers
+
+Classwork
+=========
+31-Pointer_Pointer_to_Pointer
+32-Pointer_vs_References_Decl_Init
+33-Pointer_vs_Reference_Nullability
+34-Pointer_vs_Reference_Indirection
+35-Pointer_vs_Reference_in_Functions
+36-Pointer_vs_Reference_in_Arrays
+37-Pointers_Dangling_Pointers
+
+
+Homework
+=========
+Exercise# 1
+Pointer vs Reference
+
+Problem Statement:
+
+Create a program that demonstrates the differences between a pointer and a reference:
+	1.	Create an integer variable x and assign it a value.
+	2.	Create a pointer p and a reference r to x.
+	3.	Modify the value of x using both the pointer and the reference.
+Print the modified values after each operation.
+
+
+Additional Practise Projects
+=========
+
+Leftover
+=========
+Dynamic Memory Allocation (new vs delete)

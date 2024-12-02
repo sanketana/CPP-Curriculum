@@ -1,0 +1,9 @@
+Classwork - 2-D Array Practise
+Practised the Sum of boundary elements in a 2-d array
+
+Homework:
+Problem Statement: Reverse an Array Using Pointers
+
+Write a function to reverse an array in place using pointers. 
+The function should take the array and its size as input, and modify the array directly. 
+Use pointers to swap the elements at the beginning and end of the array until the array is reversed.

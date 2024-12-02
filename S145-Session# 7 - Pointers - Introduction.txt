@@ -1,6 +1,6 @@
 Concepts
 - Definition and Purpose of Pointers
-- Pointer Syntax
+- Pointer Syntax - declaration and Initialization
 - Dereferencing Pointers
 - Pointer Arithmetic
 - Null Pointers
@@ -10,10 +10,13 @@ Classwork
 - Initialization
 - Dereferencing
 - Arithmetic
-- Null Pointer
 - Swapping using Pointers
 
 Homework
+Exercise 0: Array sum
+
+Exercise 0.1: Reverse an array
+
 Exercise 1: Find the Largest Element in an Array Using Pointers
 Problem: Write a function to find and return the largest element in an array using pointers. The array and its size will be passed as arguments.
 
@@ -23,3 +26,16 @@ Problem: Write a function to reverse a string in place using pointers. The strin
 Additional Practise Project
 - Array Sum using Pointers
 - Reverse Array using Pointers
+
+
+
+main () {
+
+    arr = {3, 4, 6, 3, 8};
+
+    sum = arrsum(&arr)
+}
+
+int arrsum() {
+   // it will calculate the sum of all element of the array and return 
+}
