@@ -60,34 +60,60 @@ void playerInput() {
     col = 2;
     break;
   }
+
   board[row][col] = turn;
   turn = (turn == 'X') ? 'O' : 'X';
 }
 
-// Our function will return X if X won, O if O won, D if draw
-char checkGameStatus() {
-  // figure out later
-  return 'N';
+bool playerXWon() {
+  if ((board[0][0] == 'X' && board[0][1] == 'X' && board[0][2] == 'X') ||
+      (board[1][0] == 'X' && board[1][1] == 'X' && board[1][2] == 'X') ||
+      (board[2][0] == 'X' && board[2][1] == 'X' && board[2][2] == 'X') ||
+      (board[0][0] == 'X' && board[1][0] == 'X' && board[2][0] == 'X') ||
+      (board[0][1] == 'X' && board[1][1] == 'X' && board[2][1] == 'X') ||
+      (board[0][2] == 'X' && board[1][2] == 'X' && board[2][2] == 'X') ||
+      (board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X') ||
+      (board[0][2] == 'X' && board[2][2] == 'X' && board[2][0] == 'X')) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+bool playerYWon() {
+  if ((board[0][0] == 'O' && board[0][1] == 'O' && board[0][2] == 'O') ||
+      (board[1][0] == 'O' && board[1][1] == 'O' && board[1][2] == 'O') ||
+      (board[2][0] == 'O' && board[2][1] == 'O' && board[2][2] == 'O') ||
+      (board[0][0] == 'O' && board[1][0] == 'O' && board[2][0] == 'O') ||
+      (board[0][1] == 'O' && board[1][1] == 'O' && board[2][1] == 'O') ||
+      (board[0][2] == 'O' && board[1][2] == 'O' && board[2][2] == 'O') ||
+      (board[0][0] == 'O' && board[1][1] == 'O' && board[2][2] == 'O') ||
+      (board[0][2] == 'O' && board[2][2] == 'O' && board[2][0] == 'O')) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 int main() {
-  char status = checkGameStatus();
-  while (status != 'X' && status != 'O' && status != 'D') {
+
+  for (int i = 0; i < 9; i++) {
     displayBoard();
     playerInput();
-  }
-
-  switch (status) {
-  case 'X':
-    cout << "X Won";
-    break;
-  case 'O':
-    cout << "O Won";
-    break;
-  case 'D':
-    cout << "Draw";
-    break;
-  case 'N':
-    break;
+    // check if any of the player won
+    // If any play won, display the message break the loop
+    // If i = 8 and none of the player has won, then it is a draw
+    if (playerXWon()) {
+      displayBoard();
+      cout << "Player X Won";
+      break;
+    } else if (playerYWon()) {
+      displayBoard();
+      cout << "Player Y Won";
+      break;
+    } else if (i == 8) {
+      displayBoard();
+      cout << "Its a Draw";
+    }
   }
 }
