@@ -1,8 +1,26 @@
 Concepts
 =========
+1.	Introduction to Memory Management
+•	What is memory in a program (Stack vs Heap)?
+•	Why do we need dynamic memory allocation?
+2.	Dynamic Memory Allocation Basics
+•	new keyword: Allocate memory dynamically.
+•	delete keyword: Free allocated memory.
+3.	Dynamic Allocation for Arrays
+•	Allocating memory for single-dimensional arrays.
+•	Allocating memory for multi-dimensional arrays.
+4.	Memory Leaks and Good Practices
+•	Importance of freeing memory.
+•	Avoiding memory leaks.
+5.	Pointers and Dynamic Memory
+•	Revising pointers in the context of new and delete.
 
 Classwork
 =========
+39-Dynamic_Memory_Allocation
+40-Dynamic_Memory_Arrays
+41-Dynamic_Memory_Students_marks
+42-Dynamic_2D_Arrays
 
 Homework
 =========
