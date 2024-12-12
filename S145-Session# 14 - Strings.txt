@@ -1,0 +1,22 @@
+Concepts
+=========
+What is a String?
+Strings in C++
+How to take String input in C++?
+String Concatenation in C++
+Substrings
+Subsequences
+
+Classwork
+=========
+
+
+Homework
+=========
+
+
+Additional Practise Projects
+=========
+
+Leftover
+=========
