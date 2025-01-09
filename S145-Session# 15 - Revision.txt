@@ -1,0 +1,5 @@
+Resuming after long break, review of below 3 homework Projects
+
+- Make the rock, paper, scissors game in C++
+- Write a c++ program to reverse a string
+- Write a c++ program to find if a number is palindrome or not
