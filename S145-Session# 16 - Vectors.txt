@@ -1,0 +1,29 @@
+Concepts
+=========
+What is a Vector
+Vector vs Array
+Advantages of Vectors
+Declaring a Vector
+Initializing a Vector
+Printing a Vector
+
+Classwork
+=========
+47-Vectors_Intro
+
+Homework
+=========
+Armstrong Number Check
+
+Problem:
+Write a C++ program to check if a number is an Armstrong number.
+An Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits.
+Example:
+	•	Input: 153 → 1^3 + 5^3 + 3^3 = 153 → ✅ Armstrong Number
+	•	Input: 123 → ❌ Not an Armstrong Number
+
+Additional Practise Projects
+=========
+
+Leftover
+=========

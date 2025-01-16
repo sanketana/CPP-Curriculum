@@ -1,0 +1,32 @@
+🚀 Exercise 2: Armstrong Number Check
+
+Problem:
+Write a C++ program to check if a number is an Armstrong number.
+An Armstrong number is a number that is equal to the sum of its own digits raised to the power of the number of digits.
+Example:
+	•	Input: 153 → 1^3 + 5^3 + 3^3 = 153 → ✅ Armstrong Number
+	•	Input: 123 → ❌ Not an Armstrong Number
+
+
+Homework
+========
+Problem Statement: Strong Number Check (C++)
+
+Write a C++ program to check whether a given number is a Strong Number or not.
+A Strong Number is a number where the sum of the factorials of its digits equals the original number itself.
+
+Explanation:
+
+A number is said to be a Strong Number if:
+
+
+\text{sum of factorials of its digits} = \text{the number itself}
+
+
+For example:
+145 is a strong number because:
+	•	1! = 1
+	•	4! = 24
+	•	5! = 120
+
+Sum of factorials: 1 + 24 + 120 = 145 ✅

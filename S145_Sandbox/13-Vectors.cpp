@@ -5,7 +5,6 @@ using namespace std;
 // Create a new vector
 // Initialise a new vector
 // Print vector
-// Take input into a vector
 
 int main () {
     // declaring a vector
