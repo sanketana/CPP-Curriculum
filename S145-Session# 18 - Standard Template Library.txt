@@ -1,0 +1,56 @@
+Concepts
+=========
+STL stands for Standard Template Library. It’s a powerful library in C++ that provides ready-made tools for handling 
+common data structures and algorithms. It saves time and effort by offering pre-built components for tasks like sorting, 
+searching, and manipulating data.
+
+Key components
+1. Containers (Data Structures)
+2. Algorithms
+3. Iterators
+4. Functors (Helpers)
+5. Adaptors
+6. Allocators
+
+Main Components are: Containers, Algorithms, Iterators
+Advanced Ones are: Functors, Adaptors, Allocators
+
+Containers (Data structures)
+	•	Vector (std::vector) – Dynamic array.
+	•	Array (std::array) – Fixed-size array.
+	•	Deque (std::deque) – Double-ended queue.
+	•	List (std::list) – Doubly linked list.
+	•	Stack (std::stack) – Last In, First Out (LIFO).
+	•	Queue (std::queue) – First In, First Out (FIFO).
+	•	Set (std::set) – Sorted, unique elements.
+	•	Map (std::map) – Key-value pairs (like a dictionary).
+
+Algorithms
+	•	Sorting: std::sort()
+	•	Searching: std::find()
+	•	Reversing: std::reverse()
+	•	Counting: std::count()
+
+
+Iterators
+(An iterator in C++ STL is an object that acts like a pointer, allowing you to traverse through elements in a container.)
+	•	Forward Iterators
+	•	Output Iterators
+	•	Bidirectonal Iterators
+	•	Random Access Iterators
+
+
+
+Classwork
+=========
+
+
+Homework
+=========
+
+
+Additional Practise Projects
+=========
+
+Leftover
+=========
