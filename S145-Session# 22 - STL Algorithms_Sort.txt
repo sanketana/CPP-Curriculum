@@ -1,0 +1,40 @@
+Concepts
+=========
+The C++ Standard Template Library (STL) provides a rich set of algorithms that operate 
+on containers like vectors, lists, and sets. These algorithms are defined in the <algorithm> and <numeric> 
+headers and cover operations like searching, sorting, modifying, and numerical computations.
+
+Category	        Examples
+Non-Modifying	    all_of, find, count, for_each
+Modifying	        copy, replace, fill, remove
+Sorting & Searching	sort, stable_sort, binary_search
+Numeric	            accumulate, iota, inner_product
+Set Operations	    set_union, set_intersection
+Heap	            make_heap, push_heap, pop_heap
+
+Most Common and Useful Algorithms
+=================================
+Sort - Fast sorting (O(n log n))
+Find - Finding an element in an unsorted container
+Binary Search - Finding an element in a sorted container
+Accumulate
+
+Reverse
+Copy / Copy If
+Remove / Remove if / Erase
+
+
+
+Classwork
+=========
+Sort - Fast sorting (O(n log n))
+
+Homework
+=========
+
+
+Additional Practise Projects
+=========
+
+Leftover
+=========

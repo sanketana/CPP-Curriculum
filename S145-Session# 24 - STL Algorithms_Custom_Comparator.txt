@@ -1,0 +1,7 @@
+Classwork - Standard Template Library
+Concepts
+- Sort Algorithm
+- Reverse Sort
+- Custom Comparator Function
+Homework
+- Take input as number of names "n", then collect "n" names, then sort them in reverse order of number of vowels in the name and print them in that order (as discussed in class today)
