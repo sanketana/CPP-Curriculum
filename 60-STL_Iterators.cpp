@@ -26,14 +26,6 @@ int main() {
   // 2. Iterator Categories Demo
   printSection("Iterator Categories");
 
-  // Forward Iterator (forward_list)
-  forward_list<int> flist = {1, 2, 3};
-  cout << "Forward Iterator: ";
-  for (auto it = flist.begin(); it != flist.end(); ++it) {
-    cout << *it << " ";
-  }
-  cout << endl;
-
   // Bidirectional Iterator (list)
   list<int> lst = {1, 2, 3};
   cout << "Bidirectional Iterator: ";

@@ -1,0 +1,22 @@
+This lesson plan will demonstrate:
+
+Different types of iterators
+Common iterator operations
+Practical examples with various containers
+Iterator categories and their capabilities
+60-STL_Iterators.cpp
+This code provides:
+
+Basic iterator usage and syntax
+Different iterator categories (forward, bidirectional, random access)
+Common iterator operations (advance, next, prev)
+Constant iterators for read-only access
+Reverse iterators for backward traversal
+Iterator distance calculation
+Key teaching points:
+
+Iterators are the glue between containers and algorithms
+Different containers support different types of iterators
+Iterator categories determine what operations are possible
+Safety features like const_iterator
+Common patterns and best practices for iterator usage

@@ -1,0 +1,56 @@
+Concepts
+=========
+1. Introduction to Object-Oriented Programming
+   - What is OOP?
+   - Why do we need OOP?
+   - Real-world analogies (objects in real life)
+
+2. Basic OOP Concepts
+   - Classes and Objects
+   - Attributes (data members)
+   - Methods (member functions)
+   - Access specifiers (public, private)
+
+3. Creating Your First Class
+   - Class declaration syntax
+   - Constructor basics
+   - Creating objects
+
+Classwork
+=========
+1. Simple Class Example: Student
+   - Create a Student class with:
+     * name, roll_number, grade
+     * Methods: display_info(), set_grade()
+   
+2. Rectangle Class Exercise
+   - Create a Rectangle class with:
+     * length, width
+     * Methods: area(), perimeter()
+
+Homework
+=========
+1. Create a BankAccount class
+   - Properties: account_number, balance
+   - Methods: deposit(), withdraw(), check_balance()
+
+2. Create a Car class
+   - Properties: brand, model, year
+   - Methods: start_engine(), stop_engine(), display_info()
+
+Additional Practice Projects
+=========
+1. Simple Library Book Management
+   - Create a Book class
+   - Track title, author, ISBN, availability
+
+2. Basic Calculator Class
+   - Create a Calculator class
+   - Implement basic arithmetic operations
+
+Leftover
+=========
+- Complex numbers example (if time permits)
+- Multiple constructors
+- Destructors
+- Advanced access specifiers (protected)

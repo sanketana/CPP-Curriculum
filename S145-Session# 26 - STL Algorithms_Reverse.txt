@@ -1,0 +1,14 @@
+This code provides:
+
+Simple vector reversal to introduce the basic concept
+Partial reversal to show more advanced usage
+String reversal to demonstrate versatility
+Interactive element for student engagement
+Clear output formatting and explanations
+When teaching, you can:
+
+Start by explaining the include statements
+Demonstrate the basic syntax: reverse(container.begin(), container.end())
+Show how iterators work with partial reversals
+Let students experiment with the interactive portion
+Assign exercises like reversing different types of containers or specific portions of arrays
