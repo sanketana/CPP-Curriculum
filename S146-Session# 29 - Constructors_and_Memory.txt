@@ -1,0 +1,52 @@
+Concepts
+=========
+1. Constructors in Detail
+   - Default constructor
+   - Parameterized constructor
+   - Copy constructor
+   - Constructor overloading
+   - Constructor initialization lists
+
+2. Destructors
+   - What are destructors
+   - When are they called
+   - Why we need them
+   - Virtual destructors (brief introduction)
+
+3. Memory Management
+   - Stack vs Heap memory
+   - Dynamic memory allocation
+   - Memory leaks
+   - The 'new' and 'delete' operators
+   - Arrays and dynamic memory
+
+Classwork
+=========
+1. Point Class Example
+   - Multiple constructors
+   - Deep vs Shallow copy
+   - Memory management
+
+2. Dynamic Array Class
+   - Constructor with dynamic array
+   - Destructor to free memory
+   - Copy constructor
+   - Resizing array
+
+Homework
+=========
+1. String Class Implementation
+   - Create a basic String class
+   - Implement constructors and destructor
+   - Handle dynamic memory for characters
+
+2. Matrix Class
+   - 2D dynamic array implementation
+   - Proper memory management
+   - Copy constructor
+
+Additional Practice
+=========
+1. Smart Pointers introduction (if time permits)
+2. Rule of Three concept
+3. Constructor delegation (C++11) 

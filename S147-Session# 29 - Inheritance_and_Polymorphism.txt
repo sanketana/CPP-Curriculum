@@ -1,0 +1,52 @@
+Concepts
+=========
+1. Inheritance Basics
+   - What is inheritance?
+   - Base and Derived classes
+   - Access specifiers in inheritance (public, private, protected)
+   - Types of inheritance (single, multiple, multilevel)
+
+2. Polymorphism
+   - Function overriding
+   - Virtual functions
+   - Pure virtual functions
+   - Abstract classes
+   - Virtual destructors
+
+3. Method Access and Inheritance
+   - Method hiding
+   - Using override keyword
+   - Using final keyword
+   - Protected members
+   - Friend functions
+
+Classwork
+=========
+1. Shape Hierarchy Example
+   - Base class: Shape
+   - Derived classes: Circle, Rectangle, Triangle
+   - Virtual area() and perimeter() functions
+
+2. Animal Sound Example
+   - Base class: Animal
+   - Derived classes: Dog, Cat, Duck
+   - Virtual makeSound() function
+
+Homework
+=========
+1. Vehicle Management System
+   - Base class: Vehicle
+   - Derived classes: Car, Motorcycle, Truck
+   - Track fuel, speed, maintenance
+
+2. Employee Payroll System
+   - Base class: Employee
+   - Derived classes: Manager, Developer, Intern
+   - Calculate salary based on role
+
+Additional Practice
+=========
+1. Multiple inheritance example
+2. Diamond problem demonstration
+3. Interface implementation (pure virtual functions)
+4. Virtual inheritance 
