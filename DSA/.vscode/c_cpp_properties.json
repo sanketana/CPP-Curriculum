@@ -1,0 +1,17 @@
+   {
+     "configurations": [
+       {
+         "name": "Mac",
+         "includePath": [
+           "${workspaceFolder}/**",
+           "/opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14.2.0",
+           "/opt/homebrew/Cellar/gcc/14.2.0_1/include/c++/14.2.0/aarch64-apple-darwin23",
+           "/opt/homebrew/Cellar/gcc/14.2.0_1/lib/gcc/14"
+         ],
+         "compilerPath": "/opt/homebrew/bin/g++-14",
+         "cStandard": "c11",
+         "cppStandard": "c++17"
+       }
+     ],
+     "version": 4
+   }
